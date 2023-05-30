@@ -4,7 +4,15 @@ import { BsMoon } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import html from "./assets/html.png";
-import hero from "./assets/hero.svg";
+import profile from "./assets/1.png";
+import css from "./assets/css.png";
+import js from "./assets/javascript.png";
+import react from "./assets/react.png";
+import node from "./assets/node.png";
+import mongo from "./assets/mongo.png";
+import aws from "./assets/aws.png";
+import firebase from "./assets/firebase.png";
+import logo from "./assets/l1.png";
 
 function App() {
   const [navbar, setNavbar] = useState(false);
@@ -46,7 +54,7 @@ function App() {
                 className="text-xl font-bold md:text-2xl hover:text-gray-700"
                 href="#"
               >
-                Brand
+                Logo
               </a>
             </div>
             {/* Mobile menu button */}
@@ -139,26 +147,28 @@ function App() {
         </div>
       </nav>
 
-      <div className="container px-6 py-4 mx-auto">
-        <section id="home" className="pt-36">
+      <div className="container px-6 mx-auto">
+        <section id="home" className="pt-5">
           <div className="container">
             <div className="flex flex-row justify-evenly flex-wrap-reverse">
               <div className="flex justify-center flex-col w-1/2">
-                <div className="flex flex-col items-center justify-center">
-                  <h1 className="text-6xl font-bold text-center ">
+                <div className="flex flex-col justify-center">
+                  <h1 className="text-6xl font-bold ">
+                    Hi,
+                    <br />
+                    I'm{" "}
                     <span className="text-sky-600 font-medium dark:text-sky-400">
-                      Firgi Sotya Izzuddin
+                      Firgi Sotya I.
                     </span>
                   </h1>
-                  <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-                    Fullstack Web Developer.
-                  </h3>
-                  <p className="mt-4 text-xl text-center ">
+                  <br />
+                  <h2 className="text-2xl font-bold">Full Stack Developer</h2>
+                  <p className="mt-4 text-xl ">
                     Freelancer providing services for programming and design
                     content needs. Join me down below and let's get cracking!
                   </p>
                 </div>
-                <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+                <div className="text-5xl flex gap-2 py-3 text-gray-600">
                   <a href="" target="_blank">
                     <AiFillLinkedin />
                   </a>
@@ -166,23 +176,23 @@ function App() {
                     <AiFillGithub />
                   </a>
                 </div>
-                <div className="flex justify-center items-center gap-16 py-3 text-gray-600">
+                <div className="flex items-center gap-16 py-3 text-gray-600">
                   <a
-                    className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 border-none rounded-md w-[200px] h-[60px] text-3xl text-center"
+                    className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 border-none rounded-full hover:shadow-lg hover:opacity-80 w-[200px] h-[60px] text-3xl text-center"
                     href="#"
                   >
                     Resume
                   </a>
                 </div>
               </div>
-              <div cl>
-                <img src={hero} alt="" className="w-[500px] h-[500px]" />
+              <div className="mx-auto bg-gradient-to-b from-sky-400 rounded-full w-80 h-80 relative overflow-hidden md:h-96 md:w-96">
+                <img src={profile} alt="" layout="fill" objectFit="cover" />
               </div>
             </div>
           </div>
         </section>
 
-        <section id="about" className="py-20">
+        <section id="about" className="py-40">
           <div className="container mx-auto">
             <div className="flex flex-col items-center justify-center">
               <h1 className="text-5xl font-bold text-center pb-10">
@@ -190,12 +200,15 @@ function App() {
                   About Me
                 </span>
               </h1>
-              <div className="grid grid-cols-2">
-                <div className="flex justify-center">
-                  <img src={html} alt="" className="w-[200px] h-[200px]" />
+              <div className="flex flex-row justify-evenly flex-wrap-reverse">
+                <div className="flex justify-center flex-col w-1/2">
+                <div className="mx-auto bg-gradient-to-b from-sky-400 rounded-full w-50 h-50 relative overflow-hidden md:h-96 md:w-96">
+                  <img src={profile} alt="" layout="fill" objectFit="cover" />
                 </div>
-                <div>
-                  <p>
+
+                </div>
+                <div className="flex justify-center flex-col w-1/2  ">
+                  <p className="text-xl font-bold">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
@@ -209,6 +222,20 @@ function App() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* skills */}
+        <section id="skills" classname="py-40">
+          <div className="container mx-auto">
+            <div className="flex flex-col items-center justify-center">
+              <h1 className="text-5xl font-bold text-center pb-10">
+                <span className="text-sky-600 font-medium dark:text-sky-400">
+                  Skills
+                </span>
+              </h1>
+              
             </div>
           </div>
         </section>
