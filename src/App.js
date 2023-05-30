@@ -4,6 +4,7 @@ import { BsMoon } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import html from "./assets/html.png";
+import hero from "./assets/hero.svg";
 
 function App() {
   const [navbar, setNavbar] = useState(false);
@@ -141,35 +142,42 @@ function App() {
       <div className="container px-6 py-4 mx-auto">
         <section id="home" className="pt-36">
           <div className="container">
-            <div className="flex flex-col items-center justify-center">
-              <h1 className="text-6xl font-bold text-center ">
-                <span className="text-sky-600 font-medium dark:text-sky-400">
-                  Firgi Sotya Izzuddin
-                </span>
-              </h1>
-              <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-                Fullstack Web Developer.
-              </h3>
-              <p className="mt-4 text-xl text-center ">
-                Freelancer providing services for programming and design content
-                needs. Join me down below and let's get cracking!
-              </p>
-            </div>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-              <a href="" target="_blank">
-                <AiFillLinkedin />
-              </a>
-              <a href="https://github.com/Firgisotya" target="_blank">
-                <AiFillGithub />
-              </a>
-            </div>
-            <div className="flex justify-center items-center gap-16 py-3 text-gray-600">
-              <a
-                className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 border-none rounded-md w-[200px] h-[60px] text-3xl text-center"
-                href="#"
-              >
-                Resume
-              </a>
+            <div className="flex flex-row justify-evenly flex-wrap-reverse">
+              <div className="flex justify-center flex-col w-1/2">
+                <div className="flex flex-col items-center justify-center">
+                  <h1 className="text-6xl font-bold text-center ">
+                    <span className="text-sky-600 font-medium dark:text-sky-400">
+                      Firgi Sotya Izzuddin
+                    </span>
+                  </h1>
+                  <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+                    Fullstack Web Developer.
+                  </h3>
+                  <p className="mt-4 text-xl text-center ">
+                    Freelancer providing services for programming and design
+                    content needs. Join me down below and let's get cracking!
+                  </p>
+                </div>
+                <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+                  <a href="" target="_blank">
+                    <AiFillLinkedin />
+                  </a>
+                  <a href="https://github.com/Firgisotya" target="_blank">
+                    <AiFillGithub />
+                  </a>
+                </div>
+                <div className="flex justify-center items-center gap-16 py-3 text-gray-600">
+                  <a
+                    className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 border-none rounded-md w-[200px] h-[60px] text-3xl text-center"
+                    href="#"
+                  >
+                    Resume
+                  </a>
+                </div>
+              </div>
+              <div cl>
+                <img src={hero} alt="" className="w-[500px] h-[500px]" />
+              </div>
             </div>
           </div>
         </section>
@@ -183,10 +191,23 @@ function App() {
                 </span>
               </h1>
               <div className="grid grid-cols-2">
-                <div className="flex justify-center"><img src={html} alt="" className="w-[200px] h-[200px]" /></div>
-                <div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-                
-                
+                <div className="flex justify-center">
+                  <img src={html} alt="" className="w-[200px] h-[200px]" />
+                </div>
+                <div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
