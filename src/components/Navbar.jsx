@@ -9,16 +9,9 @@ const Navbar = ({ children }) => {
   return (
     <div>
       <nav className="bg-white text-black dark:text-gray-100 dark:bg-gray-900 shadow-lg">
-        <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
+        <div className="container px-6 py-4 mx-auto md:flex  md:items-center">
           <div className="flex items-center justify-between">
-            <div>
-              <a
-                className="text-xl font-bold md:text-2xl hover:text-gray-700"
-                href="#"
-              >
-                Logo
-              </a>
-            </div>
+            
             {/* Mobile menu button */}
             <div className="flex md:hidden">
               <button

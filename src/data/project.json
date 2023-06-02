@@ -1,0 +1,108 @@
+{
+    "title": [
+      {
+        "Laravel": [
+          {
+            "name": "Gorent",
+            "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.",
+            "image": [        
+              "https://ik.imagekit.io/mobile9/gorent/1.PNG?updatedAt=1685695383788",
+              "https://ik.imagekit.io/mobile9/gorent/2.PNG?updatedAt=1685695384359",
+              "https://ik.imagekit.io/mobile9/gorent/3.PNG?updatedAt=1685695383502",
+              "https://ik.imagekit.io/mobile9/gorent/4.PNG?updatedAt=1685695383144",
+              "https://ik.imagekit.io/mobile9/gorent/5.PNG?updatedAt=1685695383126",
+              "https://ik.imagekit.io/mobile9/gorent/6.PNG?updatedAt=1685695383163",
+              "https://ik.imagekit.io/mobile9/gorent/7.PNG?updatedAt=1685695383498",
+              "https://ik.imagekit.io/mobile9/gorent/8.PNG?updatedAt=1685695390355",
+              "https://ik.imagekit.io/mobile9/gorent/9.PNG?updatedAt=1685695391114",
+              "https://ik.imagekit.io/mobile9/gorent/10.PNG?updatedAt=1685695383600",
+              "https://ik.imagekit.io/mobile9/gorent/11.PNG?updatedAt=1685695383181",
+              "https://ik.imagekit.io/mobile9/gorent/12.PNG?updatedAt=1685695383811"
+            ],
+            "link": "https://gorent.trixsite.com/"
+          },
+          {
+            "name": "Kitabantuin",
+            "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.",
+            "image": [
+              "https://ik.imagekit.io/mobile9/kitabantuin/1.PNG?updatedAt=1685695410632",
+              "https://ik.imagekit.io/mobile9/kitabantuin/2.PNG?updatedAt=1685695410014",
+              "https://ik.imagekit.io/mobile9/kitabantuin/3.PNG?updatedAt=1685695409889",
+              "https://ik.imagekit.io/mobile9/kitabantuin/4.PNG?updatedAt=1685695409753",
+              "https://ik.imagekit.io/mobile9/kitabantuin/5.PNG?updatedAt=1685695410369",
+              "https://ik.imagekit.io/mobile9/kitabantuin/6.PNG?updatedAt=1685695411475",
+              "https://ik.imagekit.io/mobile9/kitabantuin/7.PNG?updatedAt=1685695409845",
+              "https://ik.imagekit.io/mobile9/kitabantuin/8.PNG?updatedAt=1685695415276",
+              "https://ik.imagekit.io/mobile9/kitabantuin/9.PNG?updatedAt=1685695417122",
+              "https://ik.imagekit.io/mobile9/kitabantuin/10.PNG?updatedAt=1685695409546",
+              "https://ik.imagekit.io/mobile9/kitabantuin/11.PNG?updatedAt=1685695409710",
+              "https://ik.imagekit.io/mobile9/kitabantuin/12.PNG?updatedAt=1685695410038"
+            ],
+            "link": "https://kitabantuin.trixsite.com/"
+          },
+          {
+            "name": "Apochecker",
+            "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.",
+            "image": [
+              "https://ik.imagekit.io/mobile9/apotek/1.png?updatedAt=1685695312842",
+              "https://ik.imagekit.io/mobile9/apotek/2.png?updatedAt=1685695313638",
+              "https://ik.imagekit.io/mobile9/apotek/3.png?updatedAt=1685695311646",
+              "https://ik.imagekit.io/mobile9/apotek/4.png?updatedAt=1685695311175"
+            ],
+            "link": "https://apochecker.trixsite.com/"
+          }
+        ],
+        "Angular": [
+          {
+            "name": "Dashboard Calibration",
+            "description": "Dashboard Calibration is a web application for managing data from the results of the quality control of the product. This application is made using Angular 8",
+            "image": [
+              "https://ik.imagekit.io/mobile9/dsqa/1.PNG?updatedAt=1685695360326",
+              "https://ik.imagekit.io/mobile9/dsqa/2.PNG?updatedAt=1685695360468",
+              "https://ik.imagekit.io/mobile9/dsqa/3.PNG?updatedAt=1685695360933"
+            ],
+            "link": "https://github.com/Firgisotya/Dashboard_QA.git"
+          }
+        ],
+        "React": [
+          {
+            "name": "Chat App",
+            "description": "Chat App is a web application for chatting with friends. This application is made using React JS and Firebase.",
+            "image": [
+              "https://ik.imagekit.io/mobile9/chat/1.PNG?updatedAt=1685695338859",
+              "https://ik.imagekit.io/mobile9/chat/2.png?updatedAt=1685695339726"
+            ],
+            "link": "https://github.com/Firgisotya/unichat-firebase.git"
+          }
+        ],
+        "Java": [
+          {
+            "name": "Java App",
+            "description": "Java app",
+            "image": [
+              "https://ik.imagekit.io/mobile9/framework/java.png?updatedAt=1685696440164"
+            ],
+            "link": ""
+          }
+        ],
+        "Python": [
+          {
+            "name": "Machine Learning",
+            "description": "Machine Learning",
+            "image": [
+              "https://ik.imagekit.io/mobile9/framework/python.png?updatedAt=1685696446973"
+            ],
+            "link": ""
+          }
+        ]
+      }
+    ],
+    "icon": [
+      "https://ik.imagekit.io/mobile9/framework/laravel.png?updatedAt=1685696440623",
+      "https://ik.imagekit.io/mobile9/framework/angular.png?updatedAt=1685696440675",
+      "https://ik.imagekit.io/mobile9/framework/react.png?updatedAt=1685696447180",
+      "https://ik.imagekit.io/mobile9/framework/java.png?updatedAt=1685696440164",
+      "https://ik.imagekit.io/mobile9/framework/python.png?updatedAt=1685696446973"
+    ]
+  }
+  
