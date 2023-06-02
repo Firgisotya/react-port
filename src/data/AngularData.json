@@ -1,0 +1,14 @@
+{
+    "Angular": [
+        {
+          "name": "Dashboard Calibration",
+          "description": "Dashboard Calibration is a web application for managing data from the results of the quality control of the product. This application is made using Angular 8",
+          "image": [
+            "https://ik.imagekit.io/mobile9/dsqa/1.PNG?updatedAt=1685695360326",
+            "https://ik.imagekit.io/mobile9/dsqa/2.PNG?updatedAt=1685695360468",
+            "https://ik.imagekit.io/mobile9/dsqa/3.PNG?updatedAt=1685695360933"
+          ],
+          "link": "https://github.com/Firgisotya/Dashboard_QA.git"
+        }
+      ]
+}

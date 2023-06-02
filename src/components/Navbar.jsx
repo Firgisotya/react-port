@@ -92,7 +92,7 @@ const Navbar = ({ children }) => {
           </div>
         </div>
       </nav>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">{children}</div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full max-md:h-full">{children}</div>
     </div>
   );
 };

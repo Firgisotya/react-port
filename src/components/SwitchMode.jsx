@@ -33,14 +33,36 @@ const SwitchMode = () => {
 
   return (
     <div className="py-2 flex justify-end items-end">
-      <button
-        onClick={toggleTheme}
-        className="flex items-center justify-between px-2 py-2 text-gray-400 bg-white rounded-full shadow-md dark:bg-gray-800 focus:outline-none"
-        aria-label="Toggle color mode"
-        type="button"
+      <label
+        htmlFor="themeSwitcherTwo"
+        className="themeSwitcherTwo relative inline-flex cursor-pointer select-none items-center"
       >
-        {theme === "light" ? <BsFillSunFill /> : <BsMoon />}
-      </button>
+        <input
+          type="checkbox"
+          name="themeSwitcherTwo"
+          id="themeSwitcherTwo"
+          className="sr-only"
+          checked={theme === "dark"}
+          onChange={toggleTheme}
+        />
+        <span className="label flex items-center text-sm font-medium text-black">
+          <BsFillSunFill
+            className={theme === "light" ? "text-yellow-500" : "text-gray-500"}
+          />
+        </span>
+        <span className="slider mx-4 flex h-8 w-[60px] items-center rounded-full bg-[#CCCCCE] p-1 duration-200">
+          <span
+            className={`dot h-6 w-6 rounded-full bg-white duration-200 ${
+              theme === "dark" ? "transform translate-x-[36px]" : ""
+            }`}
+          />
+        </span>
+        <span className="label flex items-center text-sm font-medium text-black">
+          <BsMoon
+            className={theme === "dark" ? "text-gray-500" : "text-yellow-500"}
+          />
+        </span>
+      </label>
     </div>
   );
 };
