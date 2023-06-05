@@ -1,5 +1,9 @@
 import { React, useState } from "react";
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+
+const MySwal = withReactContent(Swal);
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -23,9 +27,19 @@ const Contact = () => {
       )
       .then((response) => {
         console.log("Email sent successfully!", response.text);
+        MySwal.fire({
+          icon: 'success',
+          title: 'Message submitted successfully',
+          text: `Your Message has been submitted successfully`,
+        });
       })
       .catch((error) => {
         console.error("Error sending email:", error);
+        MySwal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong!',
+        });
       });
 
     // Clear the form fields after submission
