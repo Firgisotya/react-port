@@ -1,13 +1,19 @@
 {
     "Python": [
         {
-          "name": "Chat App",
-          "description": "Chat App is a web application for chatting with friends. This application is made using React JS and Firebase.",
+          "name": "Machine Learning Regresion",
+          "description": "Machine Learning Regresion",
           "image": [
-            "https://ik.imagekit.io/mobile9/chat/1.PNG?updatedAt=1685695338859",
-            "https://ik.imagekit.io/mobile9/chat/2.png?updatedAt=1685695339726"
+            "https://ik.imagekit.io/mobile9/regresi/1.PNG?updatedAt=1685939625462",
+            "https://ik.imagekit.io/mobile9/regresi/2.PNG?updatedAt=1685939625765",
+            "https://ik.imagekit.io/mobile9/regresi/3.PNG?updatedAt=1685939625394",
+            "https://ik.imagekit.io/mobile9/regresi/4.PNG?updatedAt=1685939625249",
+            "https://ik.imagekit.io/mobile9/regresi/5.PNG?updatedAt=1685939625393",
+            "https://ik.imagekit.io/mobile9/regresi/6.PNG?updatedAt=1685939625409",
+            "https://ik.imagekit.io/mobile9/regresi/7.PNG?updatedAt=1685939625416",
+            "https://ik.imagekit.io/mobile9/regresi/8.PNG?updatedAt=1685939625502"
           ],
-          "link": "https://github.com/Firgisotya/unichat-firebase.git"
+          "link": ""
         }
       ]
 }

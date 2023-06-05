@@ -2,7 +2,7 @@
     "React": [
         {
           "name": "Chat App",
-          "description": "Chat App is a web application for chatting with friends. This application is made using React JS and Firebase.",
+          "description": "I created a Chat-App website with Google account authentication from firebase, I created this website to learn about the chat-engine and Oauth libraries on firebase. One of the difficulties I encountered when creating this website was the integration between react.js and the chat engine library, and to overcome this problem, I had to go back to reading the documentation about the chat engine library and also look for references to the problem I was experiencing.",
           "image": [
             "https://ik.imagekit.io/mobile9/chat/1.PNG?updatedAt=1685695338859",
             "https://ik.imagekit.io/mobile9/chat/2.png?updatedAt=1685695339726"

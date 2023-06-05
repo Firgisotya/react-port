@@ -1,17 +1,15 @@
 import { React, useState, useEffect } from "react";
-import { BsFillSunFill } from "react-icons/bs";
-import { BsMoon } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import '../assets/css/Navbar.css';
 
 const Navbar = ({ children }) => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <div>
-      <nav className="bg-white text-black dark:text-gray-100 dark:bg-gray-900 shadow-lg">
+    <div className="">
+      <nav className="bg-white max-md:hidden text-black dark:text-gray-100 dark:bg-gray-900 shadow-lg">
         <div className="container px-6 py-4 mx-auto md:flex  md:items-center">
           <div className="flex items-center justify-between">
-            
             {/* Mobile menu button */}
             <div className="flex md:hidden">
               <button
@@ -90,9 +88,14 @@ const Navbar = ({ children }) => {
               </Link>
             </div>
           </div>
+
+          
         </div>
       </nav>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full max-md:h-full">{children}</div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full max-md:h-full">
+        {children}
+      </div>
     </div>
   );
 };

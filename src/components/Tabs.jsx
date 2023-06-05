@@ -39,8 +39,8 @@ const Tabs = () => {
     <div className="w-full px-2 py-4 sm:px-0">
       <div className="flex justify-center items-center">
         <div data-aos="zoom-in" className="flex max-md:w-full bg-gray-100 hover:bg-gray-200 rounded-lg transition p-1 dark:bg-gray-700 dark:hover:bg-gray-600">
-          <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400">
-            <li className="mr-2">
+          <ul className="flex flex-wrap justify-evenly gap-2 w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+            <li className="">
               <a
                 href="#"
                 className={`flex items-center inline-block rounded-lg px-4 py-3  ${
@@ -50,11 +50,11 @@ const Tabs = () => {
                 }`}
                 onClick={() => handleTabSelect("laravel")}
               >
-                <img src={laravel} alt="laravel" className="w-8" />
-                <span className="ml-2 text-xl">Laravel</span>
+                <img src={laravel} alt="laravel" className="w-8 max-md:w-6" />
+                <span className="ml-2 text-xl max-md:hidden">Laravel</span>
               </a>
             </li>
-            <li className="mr-2">
+            <li className="">
               <a
                 href="#"
                 className={`flex items-center inline-block rounded-lg px-4 py-3 ${
@@ -64,11 +64,11 @@ const Tabs = () => {
                 }`}
                 onClick={() => handleTabSelect("react")}
               >
-                <img src={react} alt="react" className="w-8" />
-                <span className="ml-2 text-xl">React</span>
+                <img src={react} alt="react" className="w-8 max-md:w-6" />
+                <span className="ml-2 text-xl max-md:hidden">React</span>
               </a>
             </li>
-            <li className="mr-2">
+            <li className="">
               <a
                 href="#"
                 className={`flex items-center inline-block rounded-lg px-4 py-3 ${
@@ -78,11 +78,11 @@ const Tabs = () => {
                 }`}
                 onClick={() => handleTabSelect("angular")}
               >
-                <img src={angular} alt="angular" className="w-8" />
-                <span className="ml-2 text-xl">Angular</span>
+                <img src={angular} alt="angular" className="w-8 max-md:w-6" />
+                <span className="ml-2 text-xl max-md:hidden">Angular</span>
               </a>
             </li>
-            <li className="mr-2">
+            <li className="">
               <a
                 href="#"
                 className={`flex items-center inline-block rounded-lg px-4 py-3 ${
@@ -92,8 +92,8 @@ const Tabs = () => {
                 }`}
                 onClick={() => handleTabSelect("python")}
               >
-                <img src={python} alt="python" className="w-8" />
-                <span className="ml-2 text-xl">Python</span>
+                <img src={python} alt="python" className="w-8 max-md:w-6" />
+                <span className="ml-2 text-xl max-md:hidden">Python</span>
               </a>
             </li>
           </ul>

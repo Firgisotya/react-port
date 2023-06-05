@@ -1,53 +1,52 @@
 {
-    "Laravel": [
-        {
-          "name": "Gorent",
-          "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.",
-          "image": [        
-            "https://ik.imagekit.io/mobile9/gorent/1.PNG?updatedAt=1685695383788",
-            "https://ik.imagekit.io/mobile9/gorent/2.PNG?updatedAt=1685695384359",
-            "https://ik.imagekit.io/mobile9/gorent/3.PNG?updatedAt=1685695383502",
-            "https://ik.imagekit.io/mobile9/gorent/4.PNG?updatedAt=1685695383144",
-            "https://ik.imagekit.io/mobile9/gorent/5.PNG?updatedAt=1685695383126",
-            "https://ik.imagekit.io/mobile9/gorent/6.PNG?updatedAt=1685695383163",
-            "https://ik.imagekit.io/mobile9/gorent/7.PNG?updatedAt=1685695383498",
-            "https://ik.imagekit.io/mobile9/gorent/8.PNG?updatedAt=1685695390355",
-            "https://ik.imagekit.io/mobile9/gorent/9.PNG?updatedAt=1685695391114",
-            "https://ik.imagekit.io/mobile9/gorent/10.PNG?updatedAt=1685695383600",
-            "https://ik.imagekit.io/mobile9/gorent/11.PNG?updatedAt=1685695383181",
-            "https://ik.imagekit.io/mobile9/gorent/12.PNG?updatedAt=1685695383811"
-          ],
-          "link": "https://gorent.trixsite.com/"
-        },
-        {
-          "name": "Kitabantuin",
-          "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.",
-          "image": [
-            "https://ik.imagekit.io/mobile9/kitabantuin/1.PNG?updatedAt=1685695410632",
-            "https://ik.imagekit.io/mobile9/kitabantuin/2.PNG?updatedAt=1685695410014",
-            "https://ik.imagekit.io/mobile9/kitabantuin/3.PNG?updatedAt=1685695409889",
-            "https://ik.imagekit.io/mobile9/kitabantuin/4.PNG?updatedAt=1685695409753",
-            "https://ik.imagekit.io/mobile9/kitabantuin/5.PNG?updatedAt=1685695410369",
-            "https://ik.imagekit.io/mobile9/kitabantuin/6.PNG?updatedAt=1685695411475",
-            "https://ik.imagekit.io/mobile9/kitabantuin/7.PNG?updatedAt=1685695409845",
-            "https://ik.imagekit.io/mobile9/kitabantuin/8.PNG?updatedAt=1685695415276",
-            "https://ik.imagekit.io/mobile9/kitabantuin/9.PNG?updatedAt=1685695417122",
-            "https://ik.imagekit.io/mobile9/kitabantuin/10.PNG?updatedAt=1685695409546",
-            "https://ik.imagekit.io/mobile9/kitabantuin/11.PNG?updatedAt=1685695409710",
-            "https://ik.imagekit.io/mobile9/kitabantuin/12.PNG?updatedAt=1685695410038"
-          ],
-          "link": "https://kitabantuin.trixsite.com/"
-        },
-        {
-          "name": "Apochecker",
-          "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in most web projects.",
-          "image": [
-            "https://ik.imagekit.io/mobile9/apotek/1.png?updatedAt=1685695312842",
-            "https://ik.imagekit.io/mobile9/apotek/2.png?updatedAt=1685695313638",
-            "https://ik.imagekit.io/mobile9/apotek/3.png?updatedAt=1685695311646",
-            "https://ik.imagekit.io/mobile9/apotek/4.png?updatedAt=1685695311175"
-          ],
-          "link": "https://apochecker.trixsite.com/"
-        }
-      ]
+  "Laravel": [
+    {
+      "name": "Gorent",
+      "description": "My team and I created a website for a vehicle rental business with the need for online vehicle rental. Work started from July to August. Here I act as a backend where I manage data flow, database system, database tables, relationships between database tables,and create RestAPI, for display on the website, one of my team is working on it. I faced many challenges in working on the website, one of which was validation for payment flows in the  system, and this was something new for me, like it or not, I had to learn the concept of validating online payments from various references.","image": [
+        "https://ik.imagekit.io/mobile9/gorent/1.PNG?updatedAt=1685695383788",
+        "https://ik.imagekit.io/mobile9/gorent/2.PNG?updatedAt=1685695384359",
+        "https://ik.imagekit.io/mobile9/gorent/3.PNG?updatedAt=1685695383502",
+        "https://ik.imagekit.io/mobile9/gorent/4.PNG?updatedAt=1685695383144",
+        "https://ik.imagekit.io/mobile9/gorent/5.PNG?updatedAt=1685695383126",
+        "https://ik.imagekit.io/mobile9/gorent/6.PNG?updatedAt=1685695383163",
+        "https://ik.imagekit.io/mobile9/gorent/7.PNG?updatedAt=1685695383498",
+        "https://ik.imagekit.io/mobile9/gorent/8.PNG?updatedAt=1685695390355",
+        "https://ik.imagekit.io/mobile9/gorent/9.PNG?updatedAt=1685695391114",
+        "https://ik.imagekit.io/mobile9/gorent/10.PNG?updatedAt=1685695383600",
+        "https://ik.imagekit.io/mobile9/gorent/11.PNG?updatedAt=1685695383181",
+        "https://ik.imagekit.io/mobile9/gorent/12.PNG?updatedAt=1685695383811"
+      ],
+      "link": "https://gorent.trixsite.com/"
+    },
+    {
+      "name": "Kitabantuin",
+      "description": "My team and I created a freelance website for students with the name KitaBantuin, this website is needed for students who want to earn extra pocket money by doing assignments or projects on this website. This website can also help students or students who have assignments and finish them in a short time. In this project I act as a backend where I manage system flow, create RestApi, manage system security, and also improve the data structure on the system. One of the challenges that arose while working on this project was when working on system security, this was new to me because I had never studied attacks on systems before, after learning about system security I found solutions to the problems I was experiencing. The solution is to shorten the Route URL on the website and call data no longer with an id but with a slug.",
+      "image": [
+        "https://ik.imagekit.io/mobile9/kitabantuin/1.PNG?updatedAt=1685695410632",
+        "https://ik.imagekit.io/mobile9/kitabantuin/2.PNG?updatedAt=1685695410014",
+        "https://ik.imagekit.io/mobile9/kitabantuin/3.PNG?updatedAt=1685695409889",
+        "https://ik.imagekit.io/mobile9/kitabantuin/4.PNG?updatedAt=1685695409753",
+        "https://ik.imagekit.io/mobile9/kitabantuin/5.PNG?updatedAt=1685695410369",
+        "https://ik.imagekit.io/mobile9/kitabantuin/6.PNG?updatedAt=1685695411475",
+        "https://ik.imagekit.io/mobile9/kitabantuin/7.PNG?updatedAt=1685695409845",
+        "https://ik.imagekit.io/mobile9/kitabantuin/8.PNG?updatedAt=1685695415276",
+        "https://ik.imagekit.io/mobile9/kitabantuin/9.PNG?updatedAt=1685695417122",
+        "https://ik.imagekit.io/mobile9/kitabantuin/10.PNG?updatedAt=1685695409546",
+        "https://ik.imagekit.io/mobile9/kitabantuin/11.PNG?updatedAt=1685695409710",
+        "https://ik.imagekit.io/mobile9/kitabantuin/12.PNG?updatedAt=1685695410038"
+      ],
+      "link": "https://kitabantuin.trixsite.com/"
+    },
+    {
+      "name": "Apochecker",
+      "description": "The Apochecker website was created in 2022, this website is used for people who want to buy medicine without having to go to the pharmacy. This system also makes it easier for pharmacy employees to do monthly and yearly reporting. The obstacle that I encountered while working on this website was when integrating Chatify into the Laravel framework, like it or not, I had to learn about Chatify integration and read the documentation from Chatify.",
+      "image": [
+        "https://ik.imagekit.io/mobile9/apotek/1.png?updatedAt=1685695312842",
+        "https://ik.imagekit.io/mobile9/apotek/2.png?updatedAt=1685695313638",
+        "https://ik.imagekit.io/mobile9/apotek/3.png?updatedAt=1685695311646",
+        "https://ik.imagekit.io/mobile9/apotek/4.png?updatedAt=1685695311175"
+      ],
+      "link": "https://apochecker.trixsite.com/"
+    }
+  ]
 }

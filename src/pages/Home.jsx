@@ -4,10 +4,14 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 
-import profile from "../assets/1.png";
+import cv from "../assets/cv.pdf";
 import hero from "../assets/hero.svg";
-import si from "../assets/gif/si.gif"
-import apiGif from "../assets/gif/api.gif"
+import p1 from "../assets/p1.svg";
+import p2 from "../assets/p2.svg";
+import si from "../assets/gif/si.gif";
+import apiGif from "../assets/gif/api.gif";
+
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -60,16 +64,20 @@ const Home = () => {
               className="flex items-center gap-16 py-3 text-gray-600"
               data-aos="fade-right"
             >
-              <a
+              <motion.a
+                href={cv}
+                target="_blank"
                 className="bg-gradient-to-r from-sky-400 to-blue-500 text-white px-4 py-2 border-none rounded-full hover:shadow-lg hover:opacity-80 w-[200px] h-[60px] text-3xl text-center"
-                href="#"
+                whileHover={{ scale: 1.2 }}
+                onHoverStart={(e) => {}}
+                onHoverEnd={(e) => {}}
               >
                 Resume
-              </a>
+              </motion.a>
             </div>
           </div>
           <div className="flex justify-center flex-col w-1/2 max-md:w-full">
-            <img src={hero} alt="" data-aos="fade-left" />
+            <img src={p2} alt="" data-aos="fade-left" />
           </div>
         </div>
       </div>
