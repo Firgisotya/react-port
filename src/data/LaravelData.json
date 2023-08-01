@@ -47,6 +47,21 @@
         "https://ik.imagekit.io/mobile9/apotek/4.png?updatedAt=1685695311175"
       ],
       "link": "https://apochecker.trixsite.com/"
+    },
+    {
+      "name": "Absensi Online",
+      "description" : "...",
+      "image": [
+        "https://ik.imagekit.io/mobile9/larsen/1.PNG?updatedAt=1690870124512",
+        "https://ik.imagekit.io/mobile9/larsen/2.PNG?updatedAt=1690870124395",
+        "https://ik.imagekit.io/mobile9/larsen/3.PNG?updatedAt=1690870124557",
+        "https://ik.imagekit.io/mobile9/larsen/4.PNG?updatedAt=1690870124309",
+        "https://ik.imagekit.io/mobile9/larsen/5.PNG?updatedAt=1690870124660",
+        "https://ik.imagekit.io/mobile9/larsen/6.PNG?updatedAt=1690870124584",
+        "https://ik.imagekit.io/mobile9/larsen/7.PNG?updatedAt=1690870124255",
+        "https://ik.imagekit.io/mobile9/larsen/8.PNG?updatedAt=1690870125804"
+      ],
+      "link": "larsen.trixsite.com"
     }
   ]
 }

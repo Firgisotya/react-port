@@ -47,7 +47,6 @@ function App() {
     <div className="dark:text-gray-100 dark:bg-slate-900 text-black bg-white">
     <BrowserRouter>
       <Navbar>
-      <SwitchMode />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
