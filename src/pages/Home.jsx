@@ -35,9 +35,12 @@ import AngularData from "../data/AngularData.json";
 import PythonData from "../data/PythonData.json";
 
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  console.log(LaravelData.Laravel[0]);
+
+
+
   return (
     <div className="max-md:h-full">
       <div className="container mx-auto">
@@ -153,122 +156,137 @@ const Home = () => {
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex  ">
-                <img src={html} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={html} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={css} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={css} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={js} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={js} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={react} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={react} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={node} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={node} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={laravel} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={laravel} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={angular} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={angular} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={mysql} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={mysql} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={php} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={php} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={java} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={java} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={bootstrap} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={bootstrap} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={npm} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={npm} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={tailwind} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={tailwind} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={firebase} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={firebase} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
+              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
+              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
-              <div class="max-w-sm rounded overflow-hidden bg-gradient-to-b from-sky-400 to-blue-500 shadow-lg justify-center flex ">
-                <img src={python} className="p-5 h-28 drop-shadow-lg" />
-              </div>
+              <img src={python} className="p-5 drop-shadow-lg" />
             </div>
           </div>
         </div>
@@ -284,7 +302,7 @@ const Home = () => {
             </span>
           </h1>
 
-          <div className="grid grid-cols-3 gap-2 max-md:grid-cols-1">  
+          <div className="grid grid-cols-3 gap-2 max-md:grid-cols-1">
             <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <img
@@ -299,9 +317,6 @@ const Home = () => {
                     {LaravelData.Laravel[0].name}
                   </h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  {LaravelData.Laravel[0].description}
-                </p>
                 <div className="flex items-center mt-2.5 mb-5">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
                     Laravel
@@ -330,9 +345,6 @@ const Home = () => {
                     {ReactData.React[0].name}
                   </h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  {ReactData.React[0].description}
-                </p>
                 <div className="flex items-center mt-2.5 mb-5">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
                     ReactJs
@@ -361,9 +373,6 @@ const Home = () => {
                     {LaravelData.Laravel[1].name}
                   </h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  {LaravelData.Laravel[1].description}
-                </p>
                 <div className="flex items-center mt-2.5 mb-5">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
                     Laravel
@@ -378,17 +387,35 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          <Link to="/project" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-10">
+              View All
+          </Link>
+
         </div>
 
         {/* contact */}
-        <div className="flex flex-col items-center justify-center mb-20">
+        <div className="flex flex-col mb-20">
           <h1
             className="text-5xl font-bold text-center pb-10"
             data-aos="fade-down"
           >
-            <span className="text-sky-600 font-medium dark:text-sky-400">
-              Hire Me
+            <div className="flex flex-col mb-10">
+            <span className="text-sky-600 font-medium text-6xl text-left dark:text-sky-400">
+              Suka Kopi, Mau Ngopi Bareng?
             </span>
+            <span className="text-sky-600 font-medium text-6xl text-left dark:text-sky-400">
+              Punya Banyak Ide Project?
+            </span>
+            <span className="text-sky-600 font-medium text-6xl text-left dark:text-sky-400">
+              Ask Something?
+            </span>
+            </div>
+            <div className="flex flex-col">
+            <span className="text-black font-normal text-left dark:text-white">
+              Contact me via
+            </span>
+            </div>
           </h1>
         </div>
       </div>
