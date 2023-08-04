@@ -70,7 +70,7 @@
 // export default SwitchMode;
 
 import React, { useState, useEffect } from "react";
-import { BsFillSunFill } from "react-icons/bs";
+import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import { BsMoon } from "react-icons/bs";
 
 const SwitchMode = () => {
@@ -101,14 +101,14 @@ const SwitchMode = () => {
   return (
     <div className="">
       <button
-        className="themeSwitcherTwo relative flex items-center justify-center cursor-pointer select-none h-8 w-8 rounded-full focus:outline-none"
+        className="themeSwitcherTwo relative flex items-center hover:shadow-lg hover:shadow-blue-500 bg-white shadow-md shadow-slate-400 dark:bg-slate-700 dark:shadow-slate-800 justify-center cursor-pointer select-none h-8 w-8 rounded-full focus:outline-none"
         onClick={toggleTheme}
       >
         <span className="label flex items-center text-sm font-medium text-black">
           {theme === "light" ? (
-            <BsFillSunFill className="text-yellow-500" />
+            <BsFillMoonFill className="text-gray-500" />
           ) : (
-            <BsMoon className="text-gray-500" />
+            <BsFillSunFill className="text-yellow-500" />
           )}
         </span>
       </button>
@@ -117,4 +117,3 @@ const SwitchMode = () => {
 };
 
 export default SwitchMode;
-

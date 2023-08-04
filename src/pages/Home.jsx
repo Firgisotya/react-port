@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
+import { BsFacebook } from "react-icons/bs";
 
 import cv from "../assets/cv.pdf";
 import hero from "../assets/hero.svg";
@@ -10,7 +11,7 @@ import p1 from "../assets/p1.svg";
 import p2 from "../assets/p2.svg";
 import si from "../assets/gif/si.gif";
 import apiGif from "../assets/gif/api.gif";
-import profile from "../assets/1.png";
+import profile from "../assets/tes1.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import js from "../assets/javascript.png";
@@ -38,9 +39,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-
-
-
   return (
     <div className="max-md:h-full">
       <div className="container mx-auto">
@@ -121,16 +119,34 @@ const Home = () => {
           </h1>
 
           <div className="flex flex-col md:flex-row justify-evenly items-center md:mb-20">
-            <div className="flex justify-center md:w-1/2 max-md:w-full">
-              <div
+            <div className="relative flex justify-center items-center md:w-1/2 max-md:w-full">
+              <img className="absolute w-1/2" src={profile} />
+              <svg
+                className=""
+                viewBox="210 80 500 500"
+                width="{900}"
+                height="{600}"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsxlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+              >
+                <g transform="translate(457.42376625483564 347.07045701994696)">
+                  <path
+                    d="M127.6 -141C164.3 -91 192.2 -45.5 187.1 -5.1C182 35.4 144 70.7 107.4 97.4C70.7 124 35.4 142 -4 146C-43.4 150 -86.7 140.1 -127.4 113.4C-168.1 86.7 -206 43.4 -202.3 3.8C-198.5 -35.8 -153 -71.7 -112.3 -121.7C-71.7 -171.7 -35.8 -235.8 4.8 -240.7C45.5 -245.5 91 -191 127.6 -141"
+                    fill="#4FACF7"
+                  />
+                </g>
+              </svg>
+
+              {/* <div
                 className="mx-auto bg-gradient-to-b from-sky-400 rounded-full w-80 h-80 relative overflow-hidden md:h-96 md:w-96"
                 data-aos="fade-right"
               >
                 <img src={profile} alt="" layout="fill" objectFit="cover" />
-              </div>
+              </div> */}
             </div>
             <div className="flex justify-center md:w-1/2 max-md:w-full">
-              <p className="text-2xl md:px-4" data-aos="fade-left">
+              <p className="text-xl md:px-4" data-aos="fade-left">
                 I am a Full Stack Web Developer with approximately 3 years
                 experience with expertise in responsive design and SEO
                 optimization. I have knowledge in the programming language
@@ -156,7 +172,7 @@ const Home = () => {
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
+              style={{ filter: "grayscale(100%)", transition: "0.05s" }}
               onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
               onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
@@ -388,33 +404,49 @@ const Home = () => {
             </div>
           </div>
 
-          <Link to="/project" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-10">
-              View All
+          <Link
+            to="/project"
+            className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-10"
+          >
+            View All
           </Link>
-
         </div>
 
         {/* contact */}
         <div className="flex flex-col mb-20">
           <h1
-            className="text-5xl font-bold text-center pb-10"
+            className="text-5xl font-bold text-center pb-10 mb-10"
             data-aos="fade-down"
           >
             <div className="flex flex-col mb-10">
-            <span className="text-sky-600 font-medium text-6xl text-left dark:text-sky-400">
-              Suka Kopi, Mau Ngopi Bareng?
-            </span>
-            <span className="text-sky-600 font-medium text-6xl text-left dark:text-sky-400">
-              Punya Banyak Ide Project?
-            </span>
-            <span className="text-sky-600 font-medium text-6xl text-left dark:text-sky-400">
-              Ask Something?
-            </span>
+              <span className="text-sky-600 font-medium text-lg md:text-6xl text-left dark:text-sky-400">
+                Suka Kopi, Mau Ngopi Bareng?
+              </span>
+              <span className="text-sky-600 font-medium text-lg md:text-6xl text-left dark:text-sky-400">
+                Punya Banyak Ide Project?
+              </span>
+              <span className="text-sky-600 font-medium text-lg md:text-6xl text-left dark:text-sky-400">
+                Ask Something?
+              </span>
             </div>
-            <div className="flex flex-col">
-            <span className="text-black font-normal text-left dark:text-white">
-              Contact me via
-            </span>
+            <div className="flex">
+              <div
+                className=" bg-gradient-to-b from-sky-400 rounded-full w-80 h-80 relative overflow-hidden md:h-32 md:w-32"
+                data-aos="fade-right"
+              >
+                <img src={profile} alt="" layout="fill" objectFit="cover" />
+              </div>
+              <div className="flex flex-col justify-start">
+                <span className="text-black font-normal text-[25px] ml-10 mb-10 text-start dark:text-white">
+                  Contact me via
+                </span>
+                <span className="flex text-sky-600 font-normal text-[25px] ml-10 space-x-3 dark:text-sky-400">
+                  <SiGmail className="mx-2" /> zzuuddiinn28@gmail.com
+                </span>
+                <span className="flex text-sky-600 font-normal text-[25px] ml-10 space-x-3 dark:text-sky-400">
+                  <BsFacebook className="mx-2" /> Firgisotya
+                </span>
+              </div>
             </div>
           </h1>
         </div>

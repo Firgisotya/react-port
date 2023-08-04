@@ -10,33 +10,33 @@ const Navbar = ({ children }) => {
     <div className="">
       <div className="fixed w-full z-10 max-md:hidden">
         <div className="flex justify-center py-4">
-          <nav className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 p-5 rounded-lg shadow-lg flex flex-col md:flex-row items-center backdrop-blur-xl">
+          <nav className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 p-5 rounded-lg shadow-lg flex flex-row items-center backdrop-blur-xl">
             <Link
-              className="my-1 text-sm font-medium hover:text-indigo-500 md:mx-4 md:my-0"
+              className="my-1 text-xs sm:text-sm font-medium hover:text-indigo-500 mx-1.5 sm:mx-4 md:my-0"
               to="/"
             >
               Home
             </Link>
             <Link
-              className="my-1 text-sm font-medium hover:text-indigo-500 md:mx-4 md:my-0"
+              className="my-1 text-xs sm:text-sm font-medium hover:text-indigo-500 mx-1.5 sm:mx-4 md:my-0"
               to="/about"
             >
               About
             </Link>
             <Link
-              className="my-1 text-sm font-medium hover:text-indigo-500 md:mx-4 md:my-0"
+              className="my-1 text-xs sm:text-sm font-medium hover:text-indigo-500 mx-1.5 sm:mx-4 md:my-0"
               to="/skill"
             >
               Skills
             </Link>
             <Link
-              className="my-1 text-sm font-medium hover:text-indigo-500 md:mx-4 md:my-0"
+              className="my-1 text-xs sm:text-sm font-medium hover:text-indigo-500 mx-1.5 sm:mx-4 md:my-0"
               to="/project"
             >
               Projects
             </Link>
             <Link
-              className="my-1 text-sm font-medium hover:text-indigo-500 md:mx-4 md:my-0"
+              className="my-1 text-xs sm:text-sm font-medium hover:text-indigo-500 mx-1.5 sm:mx-4 md:my-0"
               to="/contact"
             >
               Contact Us
