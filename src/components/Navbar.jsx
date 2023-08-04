@@ -46,7 +46,7 @@ const Navbar = ({ children }) => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full max-md:h-full py-32">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full max-md:h-full pt-32">
         {children}
       </div>
     </div>

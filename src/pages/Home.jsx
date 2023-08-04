@@ -119,7 +119,7 @@ const Home = () => {
           </h1>
 
           <div className="flex flex-col md:flex-row justify-evenly items-center md:mb-20">
-            <div className="relative flex justify-center items-center md:w-1/2 max-md:w-full">
+            <div className="relative flex justify-center items-center md:w-1/2 max-md:w-full" data-aos="fade-right">
               <img className="absolute w-1/2" src={profile} />
               <svg
                 className=""
@@ -170,137 +170,92 @@ const Home = () => {
           </h1>
           <div className="flex md:flex-row max-md:flex-col justify-evenly flex-wrap w-full px-14">
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.05s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={html} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={css} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={js} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={react} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={node} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={laravel} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={angular} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={mysql} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={php} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={java} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={bootstrap} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={npm} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={tailwind} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={firebase} className="p-5 drop-shadow-lg" />
             </div>
             <div
-              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5"
+              className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
-              style={{ filter: "grayscale(100%)", transition: "0.1s" }}
-              onMouseEnter={(e) => (e.target.style.filter = "grayscale(0%)")}
-              onMouseLeave={(e) => (e.target.style.filter = "grayscale(100%)")}
             >
               <img src={python} className="p-5 drop-shadow-lg" />
             </div>
@@ -333,7 +288,7 @@ const Home = () => {
                     {LaravelData.Laravel[0].name}
                   </h5>
                 </a>
-                <div className="flex items-center mt-2.5 mb-5">
+                <div className="flex lg:flex-row flex-col gap-2 items-center mt-2.5 mb-5">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
                     Laravel
                   </span>
@@ -361,7 +316,7 @@ const Home = () => {
                     {ReactData.React[0].name}
                   </h5>
                 </a>
-                <div className="flex items-center mt-2.5 mb-5">
+                <div className="flex lg:flex-row flex-col gap-2 items-center mt-2.5 mb-5">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
                     ReactJs
                   </span>
@@ -389,7 +344,7 @@ const Home = () => {
                     {LaravelData.Laravel[1].name}
                   </h5>
                 </a>
-                <div className="flex items-center mt-2.5 mb-5">
+                <div className="flex lg:flex-row flex-col gap-2 items-center mt-2.5 mb-5">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
                     Laravel
                   </span>
