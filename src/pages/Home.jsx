@@ -20,7 +20,7 @@ import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
 import aws from "../assets/aws.png";
 import firebase from "../assets/firebase.png";
-import npm from "../assets/npm.png";
+import git from "../assets/git.png";
 import angular from "../assets/angular.png";
 import java from "../assets/java.png";
 import laravel from "../assets/laravel.png";
@@ -239,7 +239,7 @@ const Home = () => {
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
               data-aos="zoom-in"
             >
-              <img src={npm} className="p-5 drop-shadow-lg" />
+              <img src={git} className="p-5 drop-shadow-lg" />
             </div>
             <div
               className="flex justify-center max-md:flex-row md:flex-col p-2 max-md:w-full md:w-1/5 duration-0 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none"
