@@ -395,10 +395,10 @@ const Home = () => {
                 <span className="text-black font-normal text-sm md:text-[25px] ml-10 mb-10 text-start dark:text-white">
                   Contact me via
                 </span>
-                <span className="flex text-sky-600 font-normal text-sm md:text-[25px] ml-10 space-x-3 dark:text-sky-400">
+                <span className="flex text-sky-600 font-normal text-sm md:text-[25px] ml-6 space-x-3 dark:text-sky-400">
                   <SiGmail className="mx-2" /> zzuuddiinn28@gmail.com
                 </span>
-                <span className="flex text-sky-600 font-normal text-sm md:text-[25px] ml-10 space-x-3 dark:text-sky-400">
+                <span className="flex text-sky-600 font-normal text-sm md:text-[25px] ml-6 space-x-3 dark:text-sky-400">
                   <BsFacebook className="mx-2" /> Firgisotya
                 </span>
               </div>

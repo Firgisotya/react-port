@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import "../assets/css/Navbar.css";
 import SwitchMode from "./SwitchMode";
 
-const NavbarMobile = ({children}) => {
+const NavbarMobile = () => {
   return (
 
-    <div className="">
+
       <div className="fixed w-full z-10 md:hidden bottom-0">
         <div className="flex justify-center py-4">
           <nav className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 p-5 rounded-lg shadow-lg flex flex-row items-center backdrop-blur-xl">
@@ -44,7 +44,6 @@ const NavbarMobile = ({children}) => {
           </nav>
         </div>
       </div>
-    </div>
 
   )
 }
