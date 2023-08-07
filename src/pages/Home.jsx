@@ -374,31 +374,31 @@ const Home = () => {
             data-aos="fade-down"
           >
             <div className="flex flex-col mb-10">
-              <span className="text-sky-600 font-medium text-lg md:text-6xl text-left dark:text-sky-400">
+              <span className="text-sky-600 font-medium text-2xl md:text-6xl text-left dark:text-sky-400">
                 Suka Kopi, Mau Ngopi Bareng?
               </span>
-              <span className="text-sky-600 font-medium text-lg md:text-6xl text-left dark:text-sky-400">
+              <span className="text-sky-600 font-medium text-2xl md:text-6xl text-left dark:text-sky-400">
                 Punya Banyak Ide Project?
               </span>
-              <span className="text-sky-600 font-medium text-lg md:text-6xl text-left dark:text-sky-400">
+              <span className="text-sky-600 font-medium text-2xl md:text-6xl text-left dark:text-sky-400">
                 Ask Something?
               </span>
             </div>
             <div className="flex">
               <div
-                className=" bg-gradient-to-b from-sky-400 rounded-full w-80 h-80 relative overflow-hidden md:h-32 md:w-32"
+                className=" bg-gradient-to-b from-sky-400 rounded-full w-28 h-28 relative overflow-hidden md:h-32 md:w-32"
                 data-aos="fade-right"
               >
                 <img src={profile} alt="" layout="fill" objectFit="cover" />
               </div>
               <div className="flex flex-col justify-start">
-                <span className="text-black font-normal md:text-[25px] ml-10 mb-10 text-start dark:text-white">
+                <span className="text-black font-normal text-sm md:text-[25px] ml-10 mb-10 text-start dark:text-white">
                   Contact me via
                 </span>
-                <span className="flex text-sky-600 font-normal md:text-[25px] ml-10 space-x-3 dark:text-sky-400">
+                <span className="flex text-sky-600 font-normal text-sm md:text-[25px] ml-10 space-x-3 dark:text-sky-400">
                   <SiGmail className="mx-2" /> zzuuddiinn28@gmail.com
                 </span>
-                <span className="flex text-sky-600 font-normal md:text-[25px] ml-10 space-x-3 dark:text-sky-400">
+                <span className="flex text-sky-600 font-normal text-sm md:text-[25px] ml-10 space-x-3 dark:text-sky-400">
                   <BsFacebook className="mx-2" /> Firgisotya
                 </span>
               </div>
